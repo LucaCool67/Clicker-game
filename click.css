@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: monospace;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+    rotate: -5deg;
+}
+.image{
+    height: 400px;
+    width: 400px;
+}
+.statBox{
+    position: relative;
+    right: -260px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+}
+.shopButton{
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(191, 74%, 62%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    z-index: 110;
+
+    transition: transform 0.15s ease-in;
+}
+.shopButton:hover{
+    background-color:  hsl(191, 74%, 72%);
+
+    transform: rotate(-5deg);
+}
+.superSneakyButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 500px;
+
+    transition: transform 0.3s ease-in-out;
+}
+.superSneakyButton:hover{
+    transform: rotate(-5deg);
+}
